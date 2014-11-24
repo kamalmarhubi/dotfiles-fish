@@ -1,3 +1,6 @@
 *
+!/.config
+!/.config/base16-shell
+!/.config/base16-shell/*
 !/.gitignore.d
 !/.gitignore.d/fish
