@@ -4,5 +4,7 @@
 !/.config/base16-shell/*
 !/.config/fish
 !/.config/fish/config.fish
+!/.config/fish/completions
+!/.config/fish/completions/*.fish
 !/.gitignore.d
 !/.gitignore.d/fish
