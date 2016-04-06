@@ -25,5 +25,6 @@ function __fish_stg_needs_command
 end
 
 
-complete -f -c stg -n '__fish_stg_needs_command' -a "series uncommit push pop goto"
+complete -f -c stg -n '__fish_stg_needs_command' -a "series uncommit push pop goto squash"
 complete -f -c stg -n '__fish_stg_using_command goto' -a '(__fish_stg_patches)' --description 'Patch'
+complete -f -c stg -n '__fish_stg_using_command squash' -a '(__fish_stg_patches)' --description 'Patch'
